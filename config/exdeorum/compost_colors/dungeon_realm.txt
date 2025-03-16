@@ -1,0 +1,7 @@
+// Compost colors for dungeon_realm. You may add your own colors, change existing ones, or remove colors that aren't needed.
+dungeon_map, #bb936b
+general_relic, #ffddd0
+home_pearl, #3675aa
+relic_key, #7a7887
+uber_fragment, #653990
+uber_upgrade, #79469d

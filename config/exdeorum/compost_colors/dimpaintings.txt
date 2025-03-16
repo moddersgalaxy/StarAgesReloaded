@@ -1,0 +1,4 @@
+// Compost colors for dimpaintings. You may add your own colors, change existing ones, or remove colors that aren't needed.
+end_painting, #626e61
+nether_painting, #917958
+overworld_painting, #7aa44b

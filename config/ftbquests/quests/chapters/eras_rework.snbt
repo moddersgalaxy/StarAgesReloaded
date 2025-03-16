@@ -1,0 +1,2687 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "eras_rework"
+	group: "7BF5279F75E411BC"
+	hide_quest_until_deps_visible: true
+	id: "36EC652345B2ECC1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"025B631FD95354BF"
+				"00B45F5333B24372"
+			]
+			hide_until_deps_complete: true
+			icon: "ultimate_utilities:galaxy_globe"
+			id: "15D75F808822BA48"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CE7069DBC7BDC4B"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+				{
+					id: "507B2D71DFEDA57F"
+					item: {
+						Count: 1
+						id: "pickletweaks:emerald_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:grass_block"
+				id: "47BC077ADA809C34"
+				observe_type: 0
+				timer: 0L
+				title: "pasto"
+				to_observe: "minecraft:grass_block"
+				type: "observation"
+			}]
+			title: "Los Inicio"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15D75F808822BA48"]
+			description: [
+				"Para desbloquear esta función, necesitas &lcraftear 1 Lámina de Hierro&r y &lcompletar la misión Los Inicios&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: "minecraft:iron_ingot"
+			id: "0430E117E8EFFA57"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "minecraft:iron_block"
+					id: "49B656916618CE16"
+					ignore_reward_blocking: true
+					stage: "hierro"
+					team_reward: false
+					title: "Hierronico"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7698DD8902E1FCB4"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "51F8D3009980A363"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			title: "Era de hierro"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0430E117E8EFFA57"]
+			description: [
+				"Para desbloquear esta función, necesitas &lcraftear 1 Lámina de Oro&r y completar &lla misión Era de Hierro&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:gold_ingot"
+			id: "590877AA2993FD74"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "minecraft:gold_block"
+					id: "12B1BF7A46506D79"
+					ignore_reward_blocking: true
+					stage: "oro"
+					team_reward: false
+					title: "Españolito???"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "421B17DF2759FB0D"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6EE7E02FB39C1C87"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			title: "Era de Oro"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["590877AA2993FD74"]
+			description: [
+				"Para desbloquear esta función, necesitas &lcraftear 1 Diamond Plate&r y completar &lla misión Era de Oro&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			icon: "minecraft:diamond"
+			id: "467F45CE41CFEC74"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "minecraft:diamond_block"
+					id: "03EF933B6CA6CE25"
+					ignore_reward_blocking: true
+					stage: "diamante"
+					team_reward: false
+					title: "Mojang Chambea"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3368D18C29B1AC7F"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7785B78EED80B337"
+				item: "alltheores:diamond_plate"
+				type: "item"
+			}]
+			title: "Era de diamante"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["467F45CE41CFEC74"]
+			description: [
+				"Para desbloquear esta función, necesitas &lcraftear 1 Netherite Plate&r y completar &lla misión Era de Diamante&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:netherite_ingot"
+			id: "2E2AF1063A72F0E3"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "minecraft:netherite_block"
+					id: "3AD4DACD7D907062"
+					ignore_reward_blocking: true
+					stage: "netherite"
+					team_reward: false
+					title: "Netherita???"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73A851DE07369A07"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "602D620C373D99D6"
+				item: "thermal:netherite_plate"
+				type: "item"
+			}]
+			title: "Era de netherita"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["20B1A181C63F8B6D"]
+			icon: "minecraft:netherrack"
+			id: "75ECACED3BC27A06"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "minecraft:crying_obsidian"
+					id: "49F0D7DA38285E6E"
+					ignore_reward_blocking: true
+					stage: "nether"
+					team_reward: false
+					title: "Nether"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "397F8D566B493376"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0C1F05660F2470A1"
+					structure: "minecraft:pillager_outpost"
+					title: "Visita Un Pillager Outpost"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:villager_spawn_egg"
+					id: "33278EB8B6E0E4B8"
+					structure: "minecraft:village_plains"
+					title: "Visita Una AL dea De Planicies"
+					type: "structure"
+				}
+			]
+			title: "Nether Remastered"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E2AF1063A72F0E3"]
+			description: [
+				"Para desbloquear esta función, necesitas &lconseguir la Era Crafting Maestro&r y completar su misión, además de &lobservar el cubo misterioso de los meteoritos&r."
+				""
+				""
+				"&4&lNOTA: NO SE LLAMA INDEXER &r"
+				""
+				"Ambos requisitos son necesarios para avanzar."
+			]
+			hide_until_deps_complete: true
+			icon: "ae2:controller"
+			id: "20B1A181C63F8B6D"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "ae2:controller"
+					id: "6C0EE9745C460916"
+					ignore_reward_blocking: true
+					stage: "ae2"
+					team_reward: false
+					title: "AE2"
+					type: "gamestage"
+				}
+				{
+					auto: "enabled"
+					icon: "expatternprovider:ex_pattern_provider"
+					id: "550B9660816E72F1"
+					ignore_reward_blocking: true
+					stage: "ae2addons"
+					team_reward: false
+					title: "Addons"
+					type: "gamestage"
+				}
+				{
+					auto: "enabled"
+					icon: "expatternprovider:ex_molecular_assembler"
+					id: "095F93C61A55D9B7"
+					ignore_reward_blocking: true
+					stage: "ae2autocraft"
+					team_reward: false
+					title: "Auto Crafteos"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45B06BF33AC0FEAD"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: "ae2:mysterious_cube"
+				id: "6ED8B93DB1D9488B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ae2:mysterious_cube"
+				type: "observation"
+			}]
+			title: "Era Ae2"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["75ECACED3BC27A06"]
+			description: [
+				"Para desbloquear esta función, necesitas completar la misión &lEra de Netherite &ry craftear &l1 Vara del End&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:enchanting_table"
+			id: "1E16E4C2ABE50F2D"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "minecraft:brewing_stand"
+					id: "71D8A6CFCEBDEFC8"
+					ignore_reward_blocking: true
+					stage: "brujo"
+					team_reward: false
+					title: "Brujinelda"
+					type: "gamestage"
+				}
+				{
+					auto: "enabled"
+					icon: "minecraft:lectern"
+					id: "773D7DE64FCCA748"
+					ignore_reward_blocking: true
+					stage: "magic"
+					team_reward: false
+					title: "Mageta"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56C40CFCACEF2B2E"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "284C1C6DBCC65DD7"
+				item: "minecraft:end_rod"
+				type: "item"
+			}]
+			title: "Era Magic"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E16E4C2ABE50F2D"]
+			description: [
+				"Para desbloquear esta función, necesitas &lcraftear una Tinkering Table&r y &lcompletar la Era Magic&r junto con su misión."
+				""
+				"Ambos pasos son esenciales para avanzar."
+			]
+			hide_until_deps_complete: true
+			icon: "extendedcrafting:ultimate_table"
+			id: "31BB5EC813695FE2"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "extendedcrafting:ender_crafter"
+					id: "20FB307F4A44E974"
+					ignore_reward_blocking: true
+					stage: "craftingmaestro"
+					team_reward: false
+					title: "Crafter Maestro"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26F5D61E985BA964"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2288E98A61F8CB9F"
+				item: "thermal:tinker_bench"
+				type: "item"
+			}]
+			title: "Crafting Maestro"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["31BB5EC813695FE2"]
+			description: [
+				"Para desbloquear esta función, debes &lencontrar una fortaleza&r y &ldesbloquear la Era AE2&r."
+				""
+				"Ambos pasos son indispensables para avanzar."
+			]
+			hide_until_deps_complete: true
+			icon: "mekanism:metallurgic_infuser"
+			id: "4EDA9DC2D1DB8277"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "mekanism:enrichment_chamber"
+					id: "2116785BC666AEBA"
+					ignore_reward_blocking: true
+					stage: "mekat1"
+					team_reward: false
+					title: "Mekanism Tier 1"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68EBDD621DAF643B"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "660C31159DD8EFC2"
+				item: "create:desk_bell"
+				type: "item"
+			}]
+			title: "Mekanism Tier 1"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EDA9DC2D1DB8277"]
+			icon: "industrialforegoing:plant_sower"
+			id: "4078F196518400F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E350A5356F23226"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					icon: "industrialforegoing:plant_sower"
+					id: "0BA7B00412AB3B52"
+					ignore_reward_blocking: true
+					stage: "iforegoing"
+					team_reward: false
+					type: "gamestage"
+				}
+			]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "tconstruct:magma"
+					id: "314066C966533563"
+					type: "fluid"
+				}
+				{
+					id: "1AE379795B9CCD0D"
+					item: "iceandfire:dragonsteel_ice_block"
+					type: "item"
+				}
+			]
+			title: "Industrial Foregoing"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4078F196518400F3"]
+			description: [
+				"&lPara desbloquear esta función, necesitas fabricar una Vibranium - Allthemodium Alloy y completar las misiones correspondientes a &nLa Era JC y La Era Bigger Reactors&r."
+				""
+				"Cumplir estos objetivos es indispensable para avanzar.&r"
+			]
+			icon: "angelring:angel_ring"
+			id: "63C7E1759E7A24B6"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "angelring:angel_ring"
+					id: "7266C1FE3A351050"
+					ignore_reward_blocking: true
+					stage: "fly"
+					team_reward: false
+					title: "Al Infinito Y Mas Alla"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C3031C8E19EA7E6"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			subtitle: "COMPRA VIP CUSTOM"
+			tasks: [
+				{
+					id: "3B16DF3B6B3349BC"
+					item: "experienceobelisk:cognitive_crystal_block"
+					type: "item"
+				}
+				{
+					id: "067CBF82CC72A49F"
+					item: "mekanism_extras:absolute_energy_cube"
+					type: "item"
+				}
+			]
+			title: "FAKE /FLY"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["63C7E1759E7A24B6"]
+			description: [
+				"Para desbloquear esta función, es necesario completar las misiones asignadas y &lCraftear Un Mek Mechanism."
+				""
+				"Sin cumplir con estos pasos, el acceso estará restringido."
+			]
+			hide_until_deps_complete: true
+			icon: "mekanism:digital_miner"
+			id: "4CF2C880BD619974"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "mekanism:digital_miner"
+					id: "4F5736126DE38669"
+					ignore_reward_blocking: true
+					stage: "mekat2"
+					team_reward: false
+					title: "Tier 2"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "711880024136CDCC"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "07830B3742C6405B"
+				item: "kubejs:mek_mechanism"
+				type: "item"
+			}]
+			title: "Mekanism Tier 2 Age"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CF2C880BD619974"]
+			description: ["&lPara el Galaxy Globe de la receta adaptada a esta era necesitas &lLA ERA MEKAT1 MEKAT2 Y MEKAT3"]
+			icon: "thermal_more:45x_upgrade_augment"
+			id: "068112E4956A464A"
+			rewards: [{
+				auto: "invisible"
+				icon: "thermal_extra:upgrade_augment"
+				id: "297D48585D532FA5"
+				ignore_reward_blocking: true
+				stage: "thermaladdons"
+				team_reward: false
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					id: "188DC26D3833F1A4"
+					item: {
+						Count: 1
+						id: "ironfurnaces:million_furnace"
+						tag: {
+							display: {
+								Name: "{\"extra\":[{\"color\":\"yellow\",\"text\":\"R\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"b\"},{\"color\":\"aqua\",\"text\":\"o\"},{\"color\":\"yellow\",\"text\":\"w\"},{\"color\":\"light_purple\",\"text\":\" \"},{\"color\":\"blue\",\"text\":\"F\"},{\"color\":\"red\",\"text\":\"u\"},{\"color\":\"light_purple\",\"text\":\"r\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"c\"},{\"color\":\"light_purple\",\"text\":\"e\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "65278588D4102BD4"
+					item: {
+						Count: 1
+						id: "rootsclassic:living_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "659B39F7B009A654"
+					item: "mekanism_extras:cosmic_tier_installer"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "7E43A855514205CA"
+					item: "ultimate_utilities:nadienitebloque"
+					type: "item"
+				}
+			]
+			title: "Thermal Addons"
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["068112E4956A464A"]
+			description: [
+				"Para desbloquear esta función, necesitas completar &lla misión Oreexcavate&r y &lla Era Oreexcavate&r, además de &lminar 128 de Andesita&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							2118518208
+							-1698609149
+							-1383017808
+							204096419
+						]
+						Name: "SrNadien"
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMjgyNDY2NzQ4OSwKICAicHJvZmlsZUlkIiA6ICI3ZTQ2MDVjMDlhYzE0ODAzYWQ5MGQyYjAwYzJhNDNhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTck5hZGllbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZGQ2YWQ2MTYyMDBkNzNkZjA4NDUyYWMyYmE1MzVhY2FhMGQ1MmU0ZDhlNWM3YjAwNDg0MjNkNGVhMDE5Nzg0IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NjliN2YyYTFkMDBkMjZmMzBlZmUzZjlhYjlhYzgxN2IxZTZkMzVmNGYzY2ZiMDMyNGVmMmQzMjgyMjNkMzUwIgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "289E62E209A7A456"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									2118518208
+									-1698609149
+									-1383017808
+									204096419
+								]
+								Name: "SrNadien"
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMjgyNDY2NzQ4OSwKICAicHJvZmlsZUlkIiA6ICI3ZTQ2MDVjMDlhYzE0ODAzYWQ5MGQyYjAwYzJhNDNhMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTck5hZGllbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZGQ2YWQ2MTYyMDBkNzNkZjA4NDUyYWMyYmE1MzVhY2FhMGQ1MmU0ZDhlNWM3YjAwNDg0MjNkNGVhMDE5Nzg0IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NjliN2YyYTFkMDBkMjZmMzBlZmUzZjlhYjlhYzgxN2IxZTZkMzVmNGYzY2ZiMDMyNGVmMmQzMjgyMjNkMzUwIgogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+						}
+					}
+					id: "4AC48D3A6AD46ED4"
+					ignore_reward_blocking: true
+					stage: "srnadienage"
+					team_reward: false
+					title: "Uno Mateicos???"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D1A4BB074CA23DB"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+				{
+					id: "3B39CF49973530E4"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "2AD6DB4859B5C40B"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			title: "Ñeri Age"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["432BC0E9D8A0C42A"]
+			icon: "fluxnetworks:flux_point"
+			id: "69387C77F97DB38E"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "fluxnetworks:flux_point"
+					id: "51941E179893C745"
+					ignore_reward_blocking: true
+					stage: "flunerwol"
+					team_reward: false
+					title: "Flu Nerwol"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E19512B6351A74E"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					amount: 5000L
+					fluid: "ultimate_utilities:nadienitefluid"
+					id: "2C73E40157FF41C2"
+					type: "fluid"
+				}
+				{
+					count: 25L
+					id: "108BDA53D4F5AD5F"
+					item: { Count: 25, id: "tconstruct:queens_slime_block" }
+					type: "item"
+				}
+			]
+			title: "Flux Networks"
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["41F3E78CE57F1FCF"]
+			description: [
+				"Para desbloquear esta función, necesitas completar las misiones de &lEra de Oro, Era de Diamante y Era de Netherite&r, además de &lcraftear 1 Cofre del End&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:end_portal_frame"
+			id: "3F1D860CD63F04D6"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "minecraft:end_portal_frame"
+					id: "477DC20081AD6FE6"
+					ignore_reward_blocking: true
+					stage: "enderportal"
+					team_reward: false
+					title: "EndPortal"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44E05DEE4ADE429D"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 250L
+				id: "74651C8D5FF26057"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "End Portal"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F1D860CD63F04D6"]
+			icon: {
+				Count: 1
+				id: "endrem:cryptic_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "432BC0E9D8A0C42A"
+			rewards: [
+				{
+					auto: "invisible"
+					icon: "minecraft:end_portal_frame"
+					id: "30BF1261051DBAC3"
+					ignore_reward_blocking: true
+					stage: "the_end"
+					team_reward: false
+					title: "The_End"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "201901964B29477A"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "5E7F101803302157"
+					item: "ultimate_utilities:patricio_estrella"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "3D1CC94C66AD48E9"
+					item: { Count: 64, id: "tconstruct:manyullyn_block" }
+					type: "item"
+				}
+			]
+			title: "End Remastered"
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["289E62E209A7A456"]
+			description: [
+				"Para desbloquear esta función, necesitas completar la misión &lEra End Portal&r y conseguir un &lHuevo de Sniffer&r."
+				""
+				"&lTip: En la página Tianguis puedes comprarlo.&r"
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-6284622
+							-1636021930
+							-1234396764
+							-1998333963
+						]
+						Name: "troesito"
+						Properties: {
+							textures: [{
+								Signature: "NnAz7mh/9DvwbYuJwiSGTckRf4t9yW1fOv3+iAkmjiCZgL0dwdJ4D/2f9SiG/pZKVn/gwzl0UTpI/rH4J7l3Qw/9jiACixqgnNGilkWV4ljZ0pZHcvcZRpsiJXHsd72HZiOKXYSaCh/UvlakVQFeqcJyRna7JoHA3MzmVDpRD2nwTFtCMQVz6tq6MXZd0MPPQlWyCFVWI0SzNo1W5gTBbbe8gCLycjeOfixGK1fPlz0KlflqZEyy+tQKt3IJZmBZN1C0/vKj8ynvx8Iy4sJlgjQrlofkUUQxwJ5pU8xav+E7mV2qBLIAeG+vgw7SRqm6wqzE8lYh4K5BTmsCo2qX+TMcuuDtpUkQH9nYGpPZR43eF2plPGKVIwxpQl7ZDRyzxWZ80Oz85An9vgpVYnLF4qPUqFiewMGMrLAm6s9ICbITL+L3hVTAKyifoWCTTB8PQ4pjZfsM3gfj10oGY94y2fT6gCr4VZRAO84+l86WNm0eC8/zHA4ejhbKIrKgLqE05+3jPsGRjpB3yIltbZd1jSJTmO4M+jYVgHJAWIv2iwGqgl53uvumaGXi9yauBh/2sv0xf4NLMs67Vahtsm35AYEBcjru77oU7YdfvK/vu11c5wjAQKAbhI8v+UjYOHXtI9ON/AFQ8a4WewEvOn8rw0GHO+3gW+ojaua7nxtf80Q="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMjgyNzkwNDg4NSwKICAicHJvZmlsZUlkIiA6ICJmZmEwMWFiMjllN2M0OTU2YjY2Yzk5YTQ4OGUzZDdmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0cm9lc2l0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZWIyODYwNWU3NjJlNzAyYWNlNmRlNGNjZmU4MDgyMTNhYWE4MDdjOTRhMmQwOTQ2MWFhOTI4OGE1YTFlNDNhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+				}
+			}
+			id: "014EE83E0F0D08E5"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							BlockEntityTag: {
+								ForgeCaps: { }
+								id: "minecraft:skull"
+								rms_owner: {
+									owner: [I;
+										2118518208
+										-1698609149
+										-1383017808
+										204096419
+									]
+								}
+							}
+							SkullOwner: {
+								Id: [I;
+									-6284622
+									-1636021930
+									-1234396764
+									-1998333963
+								]
+								Name: "troesito"
+								Properties: {
+									textures: [{
+										Signature: "NnAz7mh/9DvwbYuJwiSGTckRf4t9yW1fOv3+iAkmjiCZgL0dwdJ4D/2f9SiG/pZKVn/gwzl0UTpI/rH4J7l3Qw/9jiACixqgnNGilkWV4ljZ0pZHcvcZRpsiJXHsd72HZiOKXYSaCh/UvlakVQFeqcJyRna7JoHA3MzmVDpRD2nwTFtCMQVz6tq6MXZd0MPPQlWyCFVWI0SzNo1W5gTBbbe8gCLycjeOfixGK1fPlz0KlflqZEyy+tQKt3IJZmBZN1C0/vKj8ynvx8Iy4sJlgjQrlofkUUQxwJ5pU8xav+E7mV2qBLIAeG+vgw7SRqm6wqzE8lYh4K5BTmsCo2qX+TMcuuDtpUkQH9nYGpPZR43eF2plPGKVIwxpQl7ZDRyzxWZ80Oz85An9vgpVYnLF4qPUqFiewMGMrLAm6s9ICbITL+L3hVTAKyifoWCTTB8PQ4pjZfsM3gfj10oGY94y2fT6gCr4VZRAO84+l86WNm0eC8/zHA4ejhbKIrKgLqE05+3jPsGRjpB3yIltbZd1jSJTmO4M+jYVgHJAWIv2iwGqgl53uvumaGXi9yauBh/2sv0xf4NLMs67Vahtsm35AYEBcjru77oU7YdfvK/vu11c5wjAQKAbhI8v+UjYOHXtI9ON/AFQ8a4WewEvOn8rw0GHO+3gW+ojaua7nxtf80Q="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMjgyNzkwNDg4NSwKICAicHJvZmlsZUlkIiA6ICJmZmEwMWFiMjllN2M0OTU2YjY2Yzk5YTQ4OGUzZDdmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0cm9lc2l0byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZWIyODYwNWU3NjJlNzAyYWNlNmRlNGNjZmU4MDgyMTNhYWE4MDdjOTRhMmQwOTQ2MWFhOTI4OGE1YTFlNDNhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+									}]
+								}
+							}
+						}
+					}
+					id: "00EE7CDCE75D3243"
+					ignore_reward_blocking: true
+					stage: "troe"
+					team_reward: false
+					title: "Troe Ages"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DE707773775B0F1"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "551E5D765F242ED6"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			title: "Troe's Age"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["014EE83E0F0D08E5"]
+			description: ["&lNecesitas La Era Y La Mision Mekanism Tier 3 Completada Y &l&n&4matar  5 mimics&r"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-640172315
+							737627535
+							-1218390496
+							1606585561
+						]
+						Name: "ITheKingRagnarI"
+						Properties: {
+							textures: [{
+								Signature: "UTsJnicEDEhZ/SUIXfrQZ6r+VO/YvaTDnGXqEOui8Vl3RBNN+sv3IvjK+mS1yoY4PCHZ+rVpA1ICXaD8inZaNYQtqu8rZ/X1z9DJtWO6SUSB6tKvAkwWLynrC4OkmvcfoiQ8f6zkvB7OZpc9xSGtv9rLDhkvL/cpO2eUj5DcZNXbZObnQXBNOWT/4Rq0hropXYaM3/T9JJ+ljU1ASBIqoiu0tPxI0JOad+zojTQClOR1WneO7x7c7rz6aSAtvdD8nO8dyqHHZ92Y3sMYDelH342BiSi6itfuzOIAGm07QfBw98ZWlnhPhJMLsnhwf4Y2oj/7vDiW07A+AWn7zN9x0OkE/vWRbaNBkR2KD2NEqfeS+KrJyam6MuhwhXjpAacoNsWTZ7Wv5KVVWNwZS5n3nj+GJH51iTR9RrOfHfJoWhmywTRD3db+DVqpJPkydipo4kcRJiDfxWbFrJ1BZ41nAUK3aMeIZs1FXvgQMCS1PhNtI/83SjYNjX4ScYuk7QlrVkgTDveBV+o6e3AIss/HQm2o7gmpkE6QYF8OBHuIp8Nv8HBpM7R5Ek1g4QxEJUsv/MV7UJvF6Jzxm1kd4H+opFD6Zki/eIHCfz1n5DIAHsPMVZh3X2EMLf1/56Y+vUY95uhIsJCFk6al/O9YqD/F+UQZO6ubfA/xiVZY7Pzmzjk="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMjgyNzk4NDMyMCwKICAicHJvZmlsZUlkIiA6ICJkOWQ3YmVlNTJiZjc0ZDhmYjc2MGQ2MjA1ZmMyOGNkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJJVGhlS2luZ1JhZ25hckkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ0YzliYjI3YjQzNWEyYWQ5ZTc3ZjAxNDNjOGEyZjQ0NTY4NzQ5ODRlM2UwZmMyN2YxYTk0YjBiYWExMzI5MSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+							}]
+						}
+					}
+				}
+			}
+			id: "41F3E78CE57F1FCF"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-640172315
+									737627535
+									-1218390496
+									1606585561
+								]
+								Name: "ITheKingRagnarI"
+								Properties: {
+									textures: [{
+										Signature: "UTsJnicEDEhZ/SUIXfrQZ6r+VO/YvaTDnGXqEOui8Vl3RBNN+sv3IvjK+mS1yoY4PCHZ+rVpA1ICXaD8inZaNYQtqu8rZ/X1z9DJtWO6SUSB6tKvAkwWLynrC4OkmvcfoiQ8f6zkvB7OZpc9xSGtv9rLDhkvL/cpO2eUj5DcZNXbZObnQXBNOWT/4Rq0hropXYaM3/T9JJ+ljU1ASBIqoiu0tPxI0JOad+zojTQClOR1WneO7x7c7rz6aSAtvdD8nO8dyqHHZ92Y3sMYDelH342BiSi6itfuzOIAGm07QfBw98ZWlnhPhJMLsnhwf4Y2oj/7vDiW07A+AWn7zN9x0OkE/vWRbaNBkR2KD2NEqfeS+KrJyam6MuhwhXjpAacoNsWTZ7Wv5KVVWNwZS5n3nj+GJH51iTR9RrOfHfJoWhmywTRD3db+DVqpJPkydipo4kcRJiDfxWbFrJ1BZ41nAUK3aMeIZs1FXvgQMCS1PhNtI/83SjYNjX4ScYuk7QlrVkgTDveBV+o6e3AIss/HQm2o7gmpkE6QYF8OBHuIp8Nv8HBpM7R5Ek1g4QxEJUsv/MV7UJvF6Jzxm1kd4H+opFD6Zki/eIHCfz1n5DIAHsPMVZh3X2EMLf1/56Y+vUY95uhIsJCFk6al/O9YqD/F+UQZO6ubfA/xiVZY7Pzmzjk="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTczMjgyNzk4NDMyMCwKICAicHJvZmlsZUlkIiA6ICJkOWQ3YmVlNTJiZjc0ZDhmYjc2MGQ2MjA1ZmMyOGNkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJJVGhlS2luZ1JhZ25hckkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ0YzliYjI3YjQzNWEyYWQ5ZTc3ZjAxNDNjOGEyZjQ0NTY4NzQ5ODRlM2UwZmMyN2YxYTk0YjBiYWExMzI5MSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+									}]
+								}
+							}
+						}
+					}
+					id: "7DF06D6DD20337F6"
+					ignore_reward_blocking: true
+					stage: "jcage"
+					team_reward: false
+					title: "jc"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "457C81A336184BBF"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "artifacts:mimic"
+				id: "3582F8C00C319F84"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Era JC "
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["15D75F808822BA48"]
+			description: [
+				"Para desbloquear esta función, es necesario completar las misiones asignadas y &lCraftear Una Forja Ultima ."
+				""
+				"Sin cumplir con estos pasos, el acceso estará restringido."
+			]
+			icon: "mob_grinding_utils:saw"
+			id: "13DFD0798FB32ECC"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "mob_grinding_utils:saw"
+					id: "4764D61E32A307E3"
+					ignore_reward_blocking: true
+					stage: "mobgrinding"
+					team_reward: false
+					title: "Mob Farms Yea"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43D7A222BAEFC268"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "3BFB32A3161E605F"
+					item: "create:stock_ticker"
+					type: "item"
+				}
+				{
+					icon: "minecraft:ender_chest"
+					id: "07A6C9F244FEC124"
+					observe_type: 0
+					timer: 0L
+					title: "Mirame che"
+					to_observe: "minecraft:ender_chest"
+					type: "observation"
+				}
+			]
+			title: "Mob Grinding Utils"
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13DFD0798FB32ECC"]
+			description: [
+				"Para desbloquear esta función, es necesario completar las misiones asignadas y &lCraftear Un Simulation Mechanism."
+				""
+				"Sin cumplir con estos pasos, el acceso estará restringido."
+			]
+			icon: "hostilenetworks:sim_chamber"
+			id: "3CA0A1C0C56D6926"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "hostilenetworks:glitch_heart"
+					id: "7F6A0AC60D054FF0"
+					ignore_reward_blocking: true
+					stage: "deepmodlearning"
+					team_reward: false
+					title: "Anti Toxic"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7022E6991331EB89"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5EF887C0A8B0B9FD"
+				item: "kubejs:simulated_mechanism"
+				type: "item"
+			}]
+			title: "Hostile Neural Networks"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["69387C77F97DB38E"]
+			description: [
+				"Para desbloquear esta función, necesitas tener completadas las siguientes eras y misiones:"
+				""
+				"&lLa Era Artifacts Y Su Mision"
+				"&lLa Era de Hierro Y Su Mision"
+				"&lLa Era de Oro Y Su Mision"
+				"&lLa Era de Diamante yY Su Mision"
+				"&lLa Era Magic Y Su Mision&r"
+				"&rAdemás, debes craftear los siguientes objetos:"
+				""
+				"&l1 Block of Nitro Crystal"
+				"&l1 Bloque de Iesmium"
+				"&l1 Enhanced Ender Ingot Block&r"
+				"Cumplir con todos estos requisitos es necesario para avanzar."
+			]
+			hide_until_deps_complete: true
+			icon: "allthecompressed:allthemodium_block_1x"
+			id: "367A4B284151F620"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DC4D060C7061584"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "28A6DC83B45CCEDA"
+				item: "kubejs:desh_mechanism"
+				type: "item"
+			}]
+			title: "algo mas roto tete"
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3CA0A1C0C56D6926"]
+			description: [
+				"Para desbloquear esta función, necesitas &lcraftear un canalizador y desbloquear la misión y la Era Magic&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			icon: "artifacts:eternal_steak"
+			id: "08F22DAE3BFD28C4"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "artifacts:mimic_spawn_egg"
+					id: "3CD2CB4DBCF8FEEA"
+					ignore_reward_blocking: true
+					stage: "artefactos"
+					team_reward: false
+					title: "Artefactos"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "662EC72419287E10"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6AFA97DF8C2B73D9"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "Artefactos"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08F22DAE3BFD28C4"]
+			icon: "chisel:chisel"
+			id: "0879CE17449EFF58"
+			rewards: [
+				{
+					auto: "invisible"
+					icon: "chisel:chisel"
+					id: "5F758D3C0A9DD5F6"
+					ignore_reward_blocking: true
+					stage: "chisel"
+					team_reward: false
+					title: "Shisel"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "630CED93AF921867"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					count: 1250L
+					id: "31A9E879401FE5E6"
+					item: { Count: 150, id: "ae2:cable_anchor" }
+					type: "item"
+				}
+				{
+					id: "18A7578222F54DC6"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "kubejs:zinc_hand"
+								}
+								{
+									Count: 1b
+									id: "create:brass_hand"
+								}
+							]
+						}
+					}
+					title: "Chisel???"
+					type: "item"
+				}
+			]
+			title: "Chisel Reborn"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["367A4B284151F620"]
+			description: [
+				"Para desbloquear esta función, necesitas completar &lla Era Algo Más Roto Tete y craftear los siguientes objetos:&r"
+				""
+				"&l1 Abyssal Plate"
+				"&l1 Abyssal Gear"
+				"&l1 Abyssal Block"
+				"Cumplir con estos requisitos es esencial para avanzar."
+			]
+			icon: "allthemodium:allthemodium_ingot"
+			id: "3C22E1422B73F878"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "allthemodium:raw_allthemodium"
+					id: "510705ACC98CF8BA"
+					ignore_reward_blocking: true
+					stage: "modium"
+					team_reward: false
+					title: "Modium"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DD11C62BBD0924B"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "6A6CA546793FE207"
+					item: "thermal_extra:abyssal_plate"
+					type: "item"
+				}
+				{
+					id: "1F74826972EC1D90"
+					item: "thermal_extra:abyssal_block"
+					type: "item"
+				}
+				{
+					id: "508171BEEB7F106A"
+					item: "thermal_extra:abyssal_gear"
+					type: "item"
+				}
+			]
+			title: "Modium"
+			x: 15.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C22E1422B73F878"]
+			description: [
+				"Para desbloquear esta función, es necesario completar las misiones asignadas y encontrar un &lBioma De Savanna&r."
+				""
+				"Sin cumplir con estos pasos, el acceso estará restringido."
+			]
+			hide_until_deps_complete: true
+			icon: "mekanism:isotopic_centrifuge"
+			id: "587E0A09BC85497B"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "mekanism:pellet_polonium"
+					id: "16649B504B1BB0B5"
+					ignore_reward_blocking: true
+					stage: "mekat3"
+					team_reward: false
+					title: "Tier 3"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C33CC46E8B90080"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "59D14D4BC701BA80"
+				item: "ultimate_utilities:bob_toronja"
+				type: "item"
+			}]
+			title: "Mekanism Tier 3 Age"
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["587E0A09BC85497B"]
+			description: [
+				"Para desbloquear esta función, es necesario completar las misiones asignadas y &lCraftear Un Allthemodium SpellBook ."
+				""
+				"Sin cumplir con estos pasos, el acceso estará restringido."
+			]
+			icon: "ars_nouveau:novice_spell_book"
+			id: "74FACB641D191512"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "ars_nouveau:novice_spell_book"
+					id: "20FF22A6EB44897D"
+					ignore_reward_blocking: true
+					stage: "arstier1"
+					team_reward: false
+					title: "Novato Del Ars"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D57B71EDB7C5769"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "47D02670BDBADC23"
+				item: "ars_creo:starbuncle_wheel"
+				type: "item"
+			}]
+			title: "Ars tier 1"
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["74FACB641D191512"]
+			icon: {
+				Count: 1
+				id: "allthearcanistgear:allthemodium_hat"
+				tag: {
+					Autoreforge: 1b
+					an_stack_perks: {
+						color: ""
+						perks: [ ]
+						tier: 4
+					}
+				}
+			}
+			id: "61D27EAB0E45A973"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "allthearcanistgear:allthemodium_hat"
+						tag: {
+							an_stack_perks: {
+								color: ""
+								perks: [ ]
+								tier: 4
+							}
+						}
+					}
+					id: "4F2C3684B6E0AE85"
+					ignore_reward_blocking: true
+					stage: "modarst1"
+					team_reward: false
+					title: "Modium Ars"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13497F962AF1D58F"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "46E576784166FBF7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:arcanist_hood"
+								tag: {
+									Autoreforge: 1b
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:arcanist_robes"
+								tag: {
+									Autoreforge: 1b
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:arcanist_leggings"
+								tag: {
+									Autoreforge: 1b
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:arcanist_boots"
+								tag: {
+									Autoreforge: 1b
+									Damage: 0
+									Reforge: "quality_equipment.quality.protective"
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:sorcerer_hood"
+								tag: {
+									Autoreforge: 1b
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:sorcerer_robes"
+								tag: {
+									Autoreforge: 1b
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:sorcerer_leggings"
+								tag: {
+									Autoreforge: 1b
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:sorcerer_boots"
+								tag: {
+									Autoreforge: 1b
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Modium"
+				type: "item"
+			}]
+			title: "Modium Ars Nouveau"
+			x: 18.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0879CE17449EFF58"]
+			description: [
+				"Para desbloquear esta función, es necesario completar las misiones asignadas y &lCraftear Un Temporizador De Torretas."
+				""
+				"Sin cumplir con estos pasos, el acceso estará restringido."
+			]
+			icon: {
+				Count: 1
+				id: "gag:time_sand_pouch"
+				tag: { }
+			}
+			id: "5C0B18F8EA9E9386"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "gag:time_sand_pouch"
+						tag: { }
+					}
+					id: "50A193B0E495A6F5"
+					ignore_reward_blocking: true
+					stage: "gag"
+					team_reward: false
+					title: "GAG"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FCA5890FFEA06CF"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5E8A188D3639EEBB"
+				item: "allthecompressed:steel_block_4x"
+				type: "item"
+			}]
+			title: "Gadget Again Grind"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74FACB641D191512"]
+			description: ["Para desbloquear esta función, es necesario completar las misiones  &lArs Nouveau Tier 1&r ."]
+			icon: "ars_nouveau:apprentice_spell_book"
+			id: "0BE465A9C7DD6BA0"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "ars_nouveau:apprentice_spell_book"
+						tag: { }
+					}
+					id: "3938BE9D8C4C091B"
+					ignore_reward_blocking: true
+					stage: "arstier2"
+					team_reward: false
+					title: "Mageta x2"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F17DEDAC59A3677"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "31184A16AE06BC57"
+				item: "create:package_frogport"
+				title: "De Novato A medio Pro"
+				type: "item"
+			}]
+			title: "Ars tier 2"
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BE465A9C7DD6BA0"]
+			description: [
+				"Para desbloquear esta función, necesitas completar &lla Era Modium&r y su &lmisión Modium&r, además de &lcraftear cualquier ítem de Allthemodium&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			icon: "allthemodium:vibranium_ingot"
+			id: "3AF5C524DD79AE38"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "allthemodium:raw_vibranium"
+					id: "781363E9A5A22BBD"
+					ignore_reward_blocking: true
+					stage: "vibranio"
+					team_reward: false
+					title: "Vibranium"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6428541DB7FFE191"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0E7C53199A4F3BE1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_sword"
+								tag: {
+									Autoreforge: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_axe"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.legendary"
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_pickaxe"
+								tag: {
+									Autoreforge: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_shovel"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.vicious"
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_hoe"
+								tag: {
+									Autoreforge: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_helmet"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.cumbersome"
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_chestplate"
+								tag: {
+									Autoreforge: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_leggings"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.cumbersome"
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_boots"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.heavy"
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_apple"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_carrot"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_rod"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_plate"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_ingot"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:raw_allthemodium"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_dust"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_gear"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Vibranio"
+			x: 20.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["70ABB92310892FF8"]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1
+				id: "allthearcanistgear:vibranium_hat"
+				tag: {
+					an_stack_perks: {
+						color: ""
+						perks: [ ]
+						tier: 5
+					}
+				}
+			}
+			id: "2ED2AD09D709FBDA"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "allthearcanistgear:vibranium_hat"
+						tag: {
+							an_stack_perks: {
+								color: ""
+								perks: [ ]
+								tier: 5
+							}
+						}
+					}
+					id: "351F1CEB2BED5B71"
+					ignore_reward_blocking: true
+					stage: "vibarst2"
+					team_reward: false
+					title: "Vibranio Ars"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "274AB30DBB95247B"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1B3998A0ACC321F5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthearcanistgear:allthemodium_boots"
+								tag: {
+									Autoreforge: 1b
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:allthemodium_leggings"
+								tag: {
+									Autoreforge: 1b
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:allthemodium_hat"
+								tag: {
+									Autoreforge: 1b
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:allthemodium_robes"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.dented"
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 4
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Vibranium"
+				type: "item"
+			}]
+			title: "Vibranio Ar Nouveau"
+			x: 22.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3AF5C524DD79AE38"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Para desbloquear esta función, es necesario completar las misiones  &lArs Nouveau Tier 1 y 2&r ."
+				""
+				"Sin cumplir con estos pasos, el acceso estará restringido."
+			]
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "70ABB92310892FF8"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "ars_nouveau:archmage_spell_book"
+					id: "39E290FA734D0701"
+					ignore_reward_blocking: true
+					stage: "arstier3"
+					team_reward: false
+					title: "Harry Potter"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "742BB414A8D04B0B"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6C11027DAD9B6516"
+				item: {
+					Count: 1
+					id: "allthewizardgear:unobtainium_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 15
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Grifindor"
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2ED2AD09D709FBDA"]
+			hide_until_deps_complete: true
+			icon: "ironfurnaces:unobtainium_furnace"
+			id: "6B2C4DA37697D12E"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "ironfurnaces:vibranium_furnace"
+					id: "61282E96ABCE7B75"
+					ignore_reward_blocking: true
+					stage: "koinoradvanced"
+					team_reward: false
+					title: "modio???"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DA7FFCDA1C64063"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7A7678AE8C9D279B"
+				item: "kubejs:basic_mechanism"
+				type: "item"
+			}]
+			title: "Hornos De Modio"
+			x: 23.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13EC0FB0F4B8CC69"]
+			description: [
+				"Para desbloquear esta función, es necesario completar las misiones asignadas y &lRecolectar 12 Cubos De Molten Diamond (tinkers construct)."
+				""
+				"Para entregar esta mision debes extraer el liquido desde &lun tanque de fluidos &r con cualquier &ltuberia de fluidos&r hacia un &lTask Screen&r"
+				""
+				""
+				""
+				""
+				"Sin cumplir con estos pasos, el acceso estará restringido."
+			]
+			hide_until_deps_complete: true
+			icon: "mysticalagriculture:infusion_altar"
+			id: "07A52DEDEE25654F"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "mysticalagriculture:awakening_altar"
+					id: "244F0DD022D6CB25"
+					ignore_reward_blocking: true
+					stage: "myticalag"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75999A23C13F579C"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					amount: 12000L
+					fluid: "tconstruct:molten_diamond"
+					id: "1D13CD8DCA45C759"
+					type: "fluid"
+				}
+				{
+					id: "4A1644BEF42D7DE4"
+					item: "ftbquests:screen_1"
+					type: "item"
+				}
+				{
+					id: "190BBDF564A73126"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pipez:fluid_pipe"
+								}
+								{
+									Count: 1b
+									id: "mekanism:ultimate_mechanical_pipe"
+								}
+								{
+									Count: 1b
+									id: "create:fluid_pipe"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Mystical Agriculture"
+			x: 28.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B2C4DA37697D12E"]
+			description: [
+				"Para desbloquear esta función, es necesario completar las misiones asignadas y &lCraftear Una Gema Fuente ."
+				""
+				"Sin cumplir con estos pasos, el acceso estará restringido."
+			]
+			icon: "ars_nouveau:source_gem"
+			id: "7D2DBF9B51938524"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07704F3D1EDD9BE9"
+					table_id: 4084485630345500261L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58DF0318578004A8"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "74266AA26B0A9F17"
+				item: "allthecompressed:vibranium_block_1x"
+				type: "item"
+			}]
+			title: "Ars Nouveau"
+			x: 24.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02519496DFDF4414"]
+			icon: "powerpots:power_pot_1"
+			id: "10BD5276BED656CF"
+			rewards: [
+				{
+					auto: "disabled"
+					icon: "powerpots:power_pot_3"
+					id: "47CB01109EA135BA"
+					ignore_reward_blocking: true
+					stage: "elonmus"
+					team_reward: false
+					title: "Mejores Macetas"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E60147AACE8E304"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "60272D76AC98A923"
+				item: "allthecompressed:pumpkin_4x"
+				type: "item"
+			}]
+			title: "Botany Pots Tiers"
+			x: 26.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D2DBF9B51938524"]
+			description: [
+				"Para desbloquear esta función, necesitas completar &lla Era Vibranio&r y su &lmisión Vibranio&r, además de &lcraftear cualquier ítem de Vibranium&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			icon: "allthemodium:unobtainium_ingot"
+			id: "02519496DFDF4414"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "allthemodium:raw_unobtainium"
+					id: "318167EF3CE81E26"
+					ignore_reward_blocking: true
+					stage: "unobtainium"
+					team_reward: false
+					title: "Unobtainium"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3687DC6BFC56FEE4"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2BCBA0171FA6A8CF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_sword"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.short"
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_pickaxe"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.rusted"
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_axe"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.worthless"
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_shovel"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.chipped"
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_hoe"
+								tag: {
+									Autoreforge: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_helmet"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.masterful"
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_chestplate"
+								tag: {
+									Autoreforge: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_leggings"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.springy"
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_boots"
+								tag: {
+									Autoreforge: 1b
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_plate"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_gear"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_rod"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_dust"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:raw_vibranium"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_ingot"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Unobtainium"
+			x: 25.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10BD5276BED656CF"]
+			id: "13EC0FB0F4B8CC69"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "allthearcanistgear:unobtainium_hat"
+						tag: {
+							an_stack_perks: {
+								color: ""
+								perks: [ ]
+								tier: 6
+							}
+						}
+					}
+					id: "4111FE7D463275C2"
+					ignore_reward_blocking: true
+					stage: "unobarst3"
+					team_reward: false
+					title: "Unobtainium Ars"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E68CB81177ACC06"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "allthearcanistgear:unobtainium_hat"
+					tag: {
+						an_stack_perks: {
+							color: ""
+							perks: [ ]
+							tier: 6
+						}
+					}
+				}
+				id: "66CDE42284F9DA60"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "allthearcanistgear:vibranium_boots"
+								tag: {
+									Autoreforge: 1b
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:vibranium_hat"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.heavy"
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:vibranium_leggings"
+								tag: {
+									Autoreforge: 1b
+									Reforge: "quality_equipment.quality.masterful"
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "allthearcanistgear:vibranium_robes"
+								tag: {
+									Autoreforge: 1b
+									an_stack_perks: {
+										color: ""
+										perks: [ ]
+										tier: 5
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Unobtainium"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C0B18F8EA9E9386"]
+			icon: {
+				Count: 1
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
+			id: "690CAF1D4F377D78"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AD3C9D133309457"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "constructionwand:infinity_wand"
+						tag: {
+							wand_options: { }
+						}
+					}
+					id: "2F8ED181C3AF50E5"
+					ignore_reward_blocking: true
+					stage: "cwands"
+					team_reward: false
+					title: "Construction Wands"
+					type: "gamestage"
+				}
+				{
+					id: "55A1074E4DF9B36F"
+					item: "create:andesite_alloy"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2B8F1368051716A2"
+				item: "argentinas_delight:yerbamate"
+				type: "item"
+			}]
+			title: "Builders Wands"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["690CAF1D4F377D78"]
+			description: [
+				"Para desbloquear esta función, necesitas completar &llas misiones de Diamante, Oro y Netherite&r, además de &lcraftear 1 Nexo de Reaparición&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42E2A4856A8ABBB9"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "7CACAE478ED1BF21"
+					ignore_reward_blocking: true
+					stage: "oreexcavate"
+					team_reward: false
+					title: "escavate"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FF2FF3D3F3CAFCE"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "362AEF2E30CDA0F2"
+				item: "minecraft:respawn_anchor"
+				type: "item"
+			}]
+			title: "Era Ore Excavation"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["42E2A4856A8ABBB9"]
+			icon: {
+				Count: 1
+				id: "experienceobelisk:experience_obelisk"
+				tag: { }
+			}
+			id: "7F70AAE92CB909F3"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "experienceobelisk:experience_obelisk"
+						tag: { }
+					}
+					id: "7A3B592CF96AC679"
+					ignore_reward_blocking: true
+					stage: "almacendexp"
+					team_reward: false
+					title: "Almacen De XP"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A69BAEFEE4E306F"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+				id: "53B66A7F24813650"
+				title: "Ahora Si Che"
+				type: "advancement"
+			}]
+			title: "Experience Obelisk"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F70AAE92CB909F3"]
+			icon: "botanypots:lime_concrete_hopper_botany_pot"
+			id: "1A2BF0E90A6B6B36"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "botanypots:terracotta_hopper_botany_pot"
+					id: "3127B6E96369678B"
+					ignore_reward_blocking: true
+					stage: "maceteitor"
+					team_reward: false
+					title: "Macetas"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0484DF3116E06ACA"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "78D762675C31D46D"
+				item: {
+					Count: 1
+					id: "tconstruct:repair_kit"
+					tag: {
+						Material: "tconstruct:queens_slime"
+					}
+				}
+				title: "Macetas"
+				type: "item"
+			}]
+			title: "Botany Pots"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A2BF0E90A6B6B36"]
+			icon: "pylons:harvester_pylon"
+			id: "756B84D12D9A1E5A"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "pylons:harvester_pylon"
+					id: "7174A40D5639677C"
+					ignore_reward_blocking: true
+					stage: "pilones"
+					team_reward: false
+					title: "Pylons"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "009E081166E236D3"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "6C22A688B86BAE18"
+					item: "functionalstorage:copper_upgrade"
+					type: "item"
+				}
+				{
+					icon: "minecraft:end_crystal"
+					id: "43027046E3A964FC"
+					structure: "minecraft:end_city"
+					title: "Visita Una End City"
+					type: "structure"
+				}
+				{
+					icon: "chisel:tiles_medium/deepslate"
+					id: "69C589B1819044E3"
+					structure: "minecraft:ancient_city"
+					title: "Ancient city"
+					type: "structure"
+				}
+			]
+			title: "Pylons"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["756B84D12D9A1E5A"]
+			description: [
+				"Para desbloquear esta función, necesitas completar &lla misión de Era de Hierro&r y &lla misión Los Inicios&r Y &lcraftear un Cofre."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:chest"
+			id: "1B2EB6FFE3D3857A"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "expandedstorage:old_netherite_chest"
+					id: "03A1D0DE59D33D75"
+					ignore_reward_blocking: true
+					stage: "loscofre"
+					team_reward: false
+					title: "Los Cofre"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BB0202949F35F07"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "06A57995F8B9DEA8"
+				item: "ars_nouveau:archwood_chest"
+				type: "item"
+			}]
+			title: "Los Cofre"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1B2EB6FFE3D3857A"]
+			description: [
+				"Para desbloquear esta función, necesitas completar la misión &lLos Cofres &rY &lcraftear un Horno del mod CookingForBlockHeads&r."
+				""
+				"Cumplir con estos requisitos es necesario para avanzar."
+			]
+			icon: "ironfurnaces:iron_furnace"
+			id: "1AEFADAC48F3775F"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "ironfurnaces:emerald_furnace"
+					id: "36EB25DEF109960D"
+					ignore_reward_blocking: true
+					stage: "koinor"
+					team_reward: false
+					title: "Ipone 123 Pro Max"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "311CA24057C85DF9"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "08796CE52A11B1C5"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			title: "Los horno"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07A52DEDEE25654F"]
+			description: ["¡Felicidades! 🎉 Has completado todas las eras, y gracias a tu esfuerzo, ahora tienes acceso a craftear **ítems creativos**. ¡Disfruta del poder y las nuevas posibilidades que has desbloqueado! ¡Sigue explorando y creando sin límites! 🚀"]
+			hide_until_deps_complete: true
+			icon: "avaritia:infinity_catalyst"
+			id: "7997970140401E0C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "avaritia:infinity_catalyst"
+					id: "713A3632E09AFFD2"
+					ignore_reward_blocking: true
+					stage: "avaritia"
+					team_reward: false
+					title: "Avaritia"
+					type: "gamestage"
+				}
+				{
+					count: 4
+					id: "08AC3FA97F4697F7"
+					item: "avaritia:infinity_block"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "659346E6504877BD"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2CB11A7476B3EE16"
+				item: "create:radiant_mechanism"
+				type: "item"
+			}]
+			title: "Era Avaritia"
+			x: 29.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7997970140401E0C"]
+			icon: "powah:energy_cell_creative"
+			id: "097976C131C3A0E1"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "minecraft:bedrock"
+					id: "157A4DD593891AD4"
+					ignore_reward_blocking: true
+					stage: "creative"
+					team_reward: false
+					title: "Sos Givero We"
+					type: "gamestage"
+				}
+				{
+					id: "68B9F95D76D7C71C"
+					item: "thermal_more:super_upgrade_augment"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B628C76128B7727"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "42189B77898D30B9"
+					item: "kubejs:creative_mechanism"
+					title: "Creative We"
+					type: "item"
+				}
+				{
+					id: "6E47AA4535AEC805"
+					item: "ultimate_utilities:estella_galactica"
+					type: "item"
+				}
+			]
+			title: "Creativo "
+			x: 30.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1AEFADAC48F3775F"]
+			description: ["para desbloquear esto observa un spawner"]
+			icon: "minecraft:spawner"
+			id: "0DB373791A73F56D"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: "rftoolspower:blazing_generator"
+					id: "03CBAEE112AA59CC"
+					ignore_reward_blocking: true
+					stage: "apotheosico"
+					team_reward: false
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "103C67AE1668D941"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					icon: "minecraft:spawner"
+					id: "6E1A4038F3BF876F"
+					observe_type: 0
+					timer: 0L
+					title: "mas mobs"
+					to_observe: "minecraft:air"
+					type: "observation"
+				}
+				{
+					count: 6L
+					id: "3D413EE5816F066F"
+					item: "advancednetherite:netherite_iron_block"
+					type: "item"
+				}
+			]
+			title: "Apotheosis"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0DB373791A73F56D"]
+			icon: "biggerreactors:reactor_terminal"
+			id: "0849A0AA28B45671"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22DC8375989D3398"
+					table_id: 3056314490522756933L
+					type: "loot"
+				}
+				{
+					auto: "disabled"
+					icon: "mekanism:yellow_cake_uranium"
+					id: "736A30A5AD41DBDC"
+					ignore_reward_blocking: true
+					stage: "chernobil"
+					team_reward: false
+					title: "Chernobil"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "3CD1C26324AA3D81"
+				item: "biggerreactors:reactor_terminal"
+				type: "item"
+			}]
+			title: "Bigger Reactors"
+			x: 7.0d
+			y: 1.0d
+		}
+	]
+	title: "Eras Rework"
+}

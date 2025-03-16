@@ -1,0 +1,25 @@
+// Compost colors for survivalistessentials. You may add your own colors, change existing ones, or remove colors that aren't needed.
+bandage, #fbfff5
+basic_knife, #7d7668
+basic_saw, #8a7654
+basic_saw_blade, #a89d87
+book, #b59469
+cloth, #e4e4e4
+crude_bandage, #edf8a1
+crude_hatchet, #faf5e7
+crude_knife, #ffffff
+crude_saw, #5e4b29
+crude_saw_blade, #544834
+flint_shard, #ffffff
+modpack_book, #a09b65
+mortar_and_pestle, #5e4616
+ointment, #89dc57
+plant_fiber, #ffffff
+plant_paste, #b8d46c
+plant_string, #ffffff
+rock_stone, #8d9089
+saw_handle, #6c511e
+sharp_knife, #619e89
+sharp_saw, #587952
+sharp_saw_blade, #4aa284
+wooden_cup, #8c6f47

@@ -1,0 +1,25 @@
+// Compost colors for ae2_tools. You may add your own colors, change existing ones, or remove colors that aren't needed.
+certus_quartz_boots, #86acd4
+certus_quartz_chestplate, #a1cffb
+certus_quartz_excavator, #8eaabc
+certus_quartz_hammer, #9ab6ca
+certus_quartz_helmet, #7ca1c8
+certus_quartz_knife, #8eaec6
+certus_quartz_leggings, #89afd7
+certus_quartz_sickle, #97c0e4
+fluix_boots, #684a98
+fluix_chestplate, #8c62ca
+fluix_excavator, #73578c
+fluix_hammer, #8362a0
+fluix_helmet, #5a4089
+fluix_knife, #685284
+fluix_leggings, #694b9e
+fluix_sickle, #6f559d
+nether_quartz_boots, #bea798
+nether_quartz_chestplate, #d9c2af
+nether_quartz_excavator, #b49e86
+nether_quartz_hammer, #c0ab91
+nether_quartz_helmet, #b49d90
+nether_quartz_knife, #b8a290
+nether_quartz_leggings, #c0aa9a
+nether_quartz_sickle, #c6b2a1

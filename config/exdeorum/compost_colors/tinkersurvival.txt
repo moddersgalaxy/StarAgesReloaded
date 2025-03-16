@@ -1,0 +1,5 @@
+// Compost colors for tinkersurvival. You may add your own colors, change existing ones, or remove colors that aren't needed.
+modpack_book, #a09b65
+saw_blade_cast, #ffff80
+saw_blade_red_sand_cast, #ff942f
+saw_blade_sand_cast, #ffffeb

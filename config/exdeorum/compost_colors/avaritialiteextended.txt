@@ -1,0 +1,4 @@
+// Compost colors for avaritialiteextended. You may add your own colors, change existing ones, or remove colors that aren't needed.
+celestium_ingot, #a46200
+celestium_ingot_overheated, #b67a20
+infinity_mace, #f4d3fe

@@ -1,0 +1,12 @@
+// Compost colors for the_harvest. You may add your own colors, change existing ones, or remove colors that aren't needed.
+armor_enchant_epic, #fa18ff
+armor_enchant_legendary, #ffa418
+armor_enchant_rare, #18ddff
+chaotic, #cc4ec5
+harvest_map, #668dac
+lucid, #5c7dde
+primal, #68d4d9
+relic, #83d39b
+tool_enchant_epic, #fa18ff
+tool_enchant_legendary, #ffa418
+tool_enchant_rare, #18ddff

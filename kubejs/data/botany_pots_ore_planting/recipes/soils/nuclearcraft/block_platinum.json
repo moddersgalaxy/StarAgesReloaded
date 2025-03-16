@@ -1,0 +1,13 @@
+{
+  "type": "botanypots:soil",
+  "input": {
+    "item": "nuclearcraft:platinum_block"
+  },
+  "display": {
+    "block": "nuclearcraft:platinum_block"
+  },
+  "categories": [
+    "platinumn"
+  ],
+  "growthModifier": 1
+}

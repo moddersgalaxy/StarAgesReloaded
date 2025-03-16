@@ -1,0 +1,161 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "replication"
+	group: "205F047CD2BF1999"
+	id: "49575A7970CD1644"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			id: "42A61D7E4144C4A2"
+			tasks: [{
+				id: "4461D4A6FC102F52"
+				item: "replication:replica_ingot"
+				type: "item"
+			}]
+			title: "Replication"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42A61D7E4144C4A2"]
+			id: "577C1B6013804D23"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49BC20389B4602A8"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7679D4B0A3C11552"
+				item: "replication:matter_tank"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E442DD06A00BA5E"]
+			id: "12495C1322CDD249"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6648B6AFBDAA70DC"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "53EDD52E2060BB6F"
+				item: "replication:disintegrator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["577C1B6013804D23"]
+			id: "3E442DD06A00BA5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DE84D8E6AA4A016"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4C83D1394F16C7ED"
+				item: "replication:identification_chamber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08B287C638249AC2"]
+			id: "049F7B015D4FC78C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D042CB758D66EC5"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6453E345301A85F3"
+				item: "replication:replicator"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12495C1322CDD249"]
+			id: "5EA0040A6F906C19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "014508CC2027BC76"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1B0DCC3B6C999E61"
+				item: "replication:matter_network_pipe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EA0040A6F906C19"]
+			id: "6E67F26866CA6955"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "507C5E8354F31AA4"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1C4C22D49D0F8DDD"
+				item: "replication:matter_blueprint"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E67F26866CA6955"]
+			id: "352E7AC588CEB17B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C179E986963FE01"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1D9DF8CD4633F374"
+				item: "replication:chip_storage"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["352E7AC588CEB17B"]
+			id: "08B287C638249AC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "160C2832182F3B46"
+				table_id: 3056314490522756933L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3D496F39D3ABD456"
+				item: "replication:replication_terminal"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+	]
+	title: "Replication"
+}
